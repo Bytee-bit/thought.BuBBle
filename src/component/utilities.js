@@ -4,5 +4,5 @@ export const generatedId = ()=>{
     return nextId;
 }
 export const getExpirationTime = ()=>{
-    return Date.now() + 15*1000;
+    return Date.now() + 60*1000;
 }
